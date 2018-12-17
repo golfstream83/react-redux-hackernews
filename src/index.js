@@ -22,6 +22,6 @@ const stories = [
 ];
 
 ReactDOM.render(
-    <App stories={stories} />,
+    <App stories={stories} onArchive={() => {}} />,
     document.getElementById('root')
 );
